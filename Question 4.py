@@ -1,6 +1,8 @@
+"""
 4.Consider any real time application like banking, college automation, stock market etc.,
 and make use of user defined exceptions according to application and raise that exception
 """
+
 class Insufficient_balance_Exception(Exception):
     # Constructor or Initializer
     def __init__(self, value):
@@ -41,6 +43,7 @@ s = Bank_Account()
 s.deposit()
 s.withdraw()
 s.display()
+
 """
 Hello!!! Welcome to the Deposit & Withdrawal Machine
 Enter amount to be Deposited: 5000
