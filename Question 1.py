@@ -16,7 +16,9 @@ print("Size of file using method 3:",f1.tell(),"bytes")#object.tell()-->returns 
 occurrences=data.count("CSE")
 print("Number of occurrences of CSE= ",occurrences)
 f1.close()
+
 """
+Output:
 CONTENTS OF FILE:  Computer Science & Engineering (CSE) is an academic program at many universities which 
 comprises scientific and engineering aspects of computing. CSE is also a term often used in 
 Europe to translate the name of engineering informatics academic programs.
@@ -24,5 +26,4 @@ Size of file using method 1:  257 bytes
 Size of file using method 2:  257 bytes
 Size of file using method 3: 257 bytes
 Number of occurrences of CSE=  2
-"""
 """
